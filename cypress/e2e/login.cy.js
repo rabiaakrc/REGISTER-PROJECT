@@ -16,6 +16,8 @@ describe('Login Page', () => {
       cy.contains(errorMessages.soyad);
     });
 
+
+    
     it('Email input throws for invalid format', () => {
       cy.get('[data-cy="email-input"]').type("emre@wit");
       cy.contains(errorMessages.email);
