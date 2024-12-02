@@ -169,8 +169,10 @@ export default function Register() {
         </Form>
       </CardBody>
       {id &&<CardFooter data-cy="response-message">
- ID={id}
+
+  ID={id}
        </CardFooter>}
     </Card>
+    
   );
 }
